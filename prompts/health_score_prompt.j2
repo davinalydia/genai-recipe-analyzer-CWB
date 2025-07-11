@@ -1,0 +1,13 @@
+Ingredients: {{ ingredients }}
+Steps: {{ steps }}
+
+1. Classify each ingredient as "healthy", "neutral", or "unhealthy".
+2. Suggest substitutions to improve healthiness.
+3. Score the recipe from 0-10 for healthiness.
+4. Reply in JSON:
+{
+  "ingredient_classification": {...},
+  "suggested_substitutions": [...],
+  "score": <number>,
+  "reason": "..."
+}
