@@ -2,6 +2,8 @@
 
 A demo GenAI-style pipeline for segmenting, extracting, and analyzing recipes using OpenAI API and prompt files.
 
+![Lint](https://github.com/teohsinyee/genai-recipe-analyzer/actions/workflows/lint.yml/badge.svg)
+
 ## Setup
 
 1. Clone this repo.
