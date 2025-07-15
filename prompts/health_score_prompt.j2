@@ -4,7 +4,8 @@ Steps: {{ steps }}
 1. Classify each ingredient as "healthy", "neutral", or "unhealthy".
 2. Suggest substitutions to improve healthiness.
 3. Score the recipe from 0-10 for healthiness.
-4. Reply in JSON:
+4. Explain the reasoning behind the healthiness score you assigned. Your explanation must be detailed and calculative, clearly justifying why that specific score was given. Reference the number and proportion of healthy, neutral, and unhealthy ingredients, the impact of suggested substitutions, and any other relevant nutritional factors.
+5. Reply in JSON:
 {
   "ingredient_classification": {...},
   "suggested_substitutions": [...],
